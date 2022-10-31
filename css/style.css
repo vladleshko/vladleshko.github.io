@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.personal-info{
+    
+    background-color: #3f6592;
+    width: 200px;
+    height: 100vh;
+    
+
+}
+.personal-info-foto{
+   padding: 25px;
+    
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+}
+.img-fluid{
+    object-fit:cover;
+    height: 100%;
+}
+
+.personal-info-text{
+    padding-left: 15px;
+    color: white;
+    
+   
+}
+
+.personal-info-text h3 {
+    border-bottom:1px solid white;
+    font-size: 18px;
+}
+.personal-info-text ul{
+    list-style: none;
+
+
+}
+
+.personal-info-text li{
+    font-size: 13px;
+    font-weight: 800;
+
+}
+.personal-info-text div{
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.personal-info-text span{
+    font-size: 13px;
+    font-weight: 400;
+    
+}
