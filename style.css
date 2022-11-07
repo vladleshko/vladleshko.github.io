@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  img{
+    display: block;
+    width: 100%;
+  }
+  
+  
+  
+  .personal-info{
+    height: 1750px;
+    vertical-align: top;
+    padding: 25px;
+    background-color: #3f6592;
+    color: #fff;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .personal-info,
+    .experience{
+      display: inline-block;
+    }
+  
+  .personal-info{
+    height: 100%;
+    min-height: 1500px;
+    width: 23%;
+  }
+  
+  .experience{
+    width: 77%;
+  }}
+  
+  .photo{
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .img-fluind{
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .line{
+    height: 3px;
+    background-color: #fff;
+    margin: 20px -25px 30px 0;
+  }
+  
+  .content:not(class){
+    margin-bottom: 25px;
+  }
+  
+  .content{
+    font-weight: 100;
+    
+  }
+  
+  .name{
+    font-size: 2rem;
+    margin-top: 25px;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: blue;
+  }
+  
+  li{
+    list-style: none;
+  
+  }
+  
+  li:not(class){
+    margin-bottom: 20px;
+  }
+  
+  .col {
+    width: 100%;
+  }
+  .col-2{
+    width: 50%;
+  }
+  .col-3{
+    width: 33.33%;
+  }
+  [class *= 'col'] {
+    display: inline-block;
+  }
+  .pull-right{
+    text-align: right;
+    font-weight: 100;
+  }
+  
+  .experience{
+    padding: 25px;
+  }
+  
+  
+  
+  .line-2{
+    height: 3px;
+    background-color: darkgrey;
+    margin: 30px 0 40px 0;
+  }
+  
+  .line-3{
+    height: 2px;
+    background-color: darkgrey;
+    margin: 30px 0 30px;
+  }
+  
+  .education{
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+  }
+  
+  p{
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  
+  .col-4{
+    margin-bottom: 55px;
+  }
+  
+  .my-works{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  
+  .link-btm{
+    padding: 10px 50px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 15px;
+    color: #000;
+    background-color: rgb(3, 97, 25);
+    box-shadow: 0 8px 5px 0px #525252;
+  }
+  
+  .link-btm:hover{
+    background-color: #0a2d59;
+    color: #fff;
+  }
+  
+  .link-btm:active{
+    position: relative;
+    top: 3px;
+    box-shadow: 0 5px 5px 0px #525252;
+  }
